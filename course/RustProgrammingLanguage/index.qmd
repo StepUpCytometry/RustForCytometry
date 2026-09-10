@@ -1,7 +1,7 @@
 ---
-title: "Setting up Rust"
+title: "Getting Started"
 author: "David Rach"
-date: 09-10-2026
+date: 09-07-2026
 format: html
 toc: true
 toc-depth: 4
@@ -15,44 +15,7 @@ toc-depth: 4
 
 # Background
 
-```{r}
-#| eval: FALSE
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-![](images/01_Install.png)
-
-![](images/02_RustInstaller.png)
-
-![](images/03_Installing.png)
-
-![](images/04_Installed.png)
-
-```{r}
-#| eval: FALSE
-dpkg -s build-essential
-```
-
-![](images/05_build-essential.png)
-
-```{r}
-#| eval: FALSE
-rustup update
-```
-
-![](images/00_UpdateRust.png)
-
-```{r}
-#| eval: FALSE
-rustup self uninstall
-```
-
-![](images/00_PreviousUninstall.png)
-
-```{r}
-#| eval: FALSE
-rustup doc
-```
+Is this thing on?
 
 # Walk-Through
 
